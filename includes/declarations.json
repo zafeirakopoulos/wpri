@@ -64,13 +64,13 @@
                     "localized" : true,
                     "keyword" : "symbolic computation",
                     "en_US" : "symbolic computation",
-                    "tr_TR" : "sembolik hesaplama"
+                    "tr_TR" : "simgesel hesaplama"
                 },
                 {
                     "localized" : true,
                     "keyword" : "vision",
                     "en_US" : "vision",
-                    "tr_TR" : "vision"
+                    "tr_TR" : "vizyon"
                 }
             ]
         },
@@ -104,37 +104,37 @@
                     "localized" : true,
                     "position" : "Director",
                     "en_US" : "Director",
-                    "tr_TR" : "Mudur"
+                    "tr_TR" : "Müdür"
                 },
                 {
                     "localized" : true,
                     "position" : "Vice Director",
                     "en_US" : "Vice Director",
-                    "tr_TR" : "Yard Mudur"
+                    "tr_TR" : "Müdür Yardımcısı"
                 },
                 {
                     "localized" : true,
                     "position" : "Faculty",
                     "en_US" : "Faculty",
-                    "tr_TR" : "Faculty"
+                    "tr_TR" : "Öğretim Elemanları"
                 },
                 {
                     "localized" : true,
                     "position" : "Research Assistant",
                     "en_US" : "Research Assistant",
-                    "tr_TR" : "Ar Gor"
+                    "tr_TR" : "Araştırma Görevlisi"
                 },
                 {
                     "localized" : true,
                     "position" : "Technician",
                     "en_US" : "Technician",
-                    "tr_TR" : "Technician"
+                    "tr_TR" : "Uzman"
                 },
                 {
                     "localized" : true,
                     "position" : "Secretary",
                     "en_US" : "Secretary",
-                    "tr_TR" : "Secretary"
+                    "tr_TR" : "Sekreter"
                 }
             ]
         },
@@ -166,57 +166,57 @@
             "default_values" : [
                 {
                     "localized" : true,
-                    "pubtype" : "SCI indexed International Journal",
-                    "en_US" : "SCI indexed International Journal",
-                    "tr_TR" : "SCI indexed International Journal"
+                    "pubtype" : "SCI indexed International Journal Article",
+                    "en_US" : "SCI indexed International Journal Article",
+                    "tr_TR" : "SCI indeksli uluslarası dergi makalesi"
                 },
                 {
                     "localized" : true,
-                    "pubtype" : "SCI-E indexed International Journal",
-                    "en_US" : "SCI-E indexed International Journal",
-                    "tr_TR" : "SCI-E indexed International Journal"
+                    "pubtype" : "SCI-E indexed International Journal Article",
+                    "en_US" : "SCI-E indexed International Journal Article",
+                    "tr_TR" : "SCI-E indeksli uluslarası dergi makalesi"
                 },
                 {
                     "localized" : true,
-                    "pubtype" : "International Journal",
-                    "en_US" : "International Journal",
-                    "tr_TR" : "International Journal"
+                    "pubtype" : "International Journal Article",
+                    "en_US" : "International Journal Article",
+                    "tr_TR" : "Uluslararası dergi makalesi"
                 },
                 {
                     "localized" : true,
-                    "pubtype" : "SCI indexed National Journal",
-                    "en_US" : "SCI indexed National Journal",
-                    "tr_TR" : "SCI indexed National Journal"
+                    "pubtype" : "SCI indexed National Journal Article",
+                    "en_US" : "SCI indexed National Journal Article",
+                    "tr_TR" : "SCI indeksli ulusal dergi makalesi"
                 },
                 {
                     "localized" : true,
-                    "pubtype" : "National Journal",
-                    "en_US" : "National Journal",
-                    "tr_TR" : "National Journal"
+                    "pubtype" : "National Journal Article",
+                    "en_US" : "National Journal Article",
+                    "tr_TR" : "Ulusal dergi makalesi"
                 },
                 {
                     "localized" : true,
                     "pubtype" : "SCI indexed International Conference Proceedings",
                     "en_US" : "SCI indexed International Conference Proceedings",
-                    "tr_TR" : "SCI indexed International Conference Proceedings"
+                    "tr_TR" : "SCI indeksli uluslararası konferans bildirisi"
                 },
                 {
                     "localized" : true,
                     "pubtype" : "SCI indexed National Conference Proceedings",
                     "en_US" : "SCI indexed National Conference Proceedings",
-                    "tr_TR" : "SCI indexed National Conference Proceedings"
+                    "tr_TR" : "SCI indeksli ulusal konferans bildirisi"
                 },
                 {
                     "localized" : true,
                     "pubtype" : "International Conference Proceedings",
                     "en_US" : "International Conference Proceedings",
-                    "tr_TR" : "International Conference Proceedings"
+                    "tr_TR" : "Uluslararası konferans bildirisi"
                 },
                 {
                     "localized" : true,
                     "pubtype" : "National Conference Proceedings",
                     "en_US" : "National Conference Proceedings",
-                    "tr_TR" : "National Conference Proceedings"
+                    "tr_TR" : "Ulusal konferans bildirisi"
                 }
             ]
         },
@@ -250,25 +250,25 @@
                     "localized" : true,
                     "vacancytype" : "Research Assistant",
                     "en_US" : "Research Assistant",
-                    "tr_TR" : "Research Assistant"
+                    "tr_TR" : "Araştırma Görevlisi"
                 },
                 {
                     "localized" : true,
                     "vacancytype" : "Project Assistant",
                     "en_US" : "Project Assistant",
-                    "tr_TR" : "Project Assistant"
+                    "tr_TR" : "Proje Asistanı"
                 },
                 {
                     "localized" : true,
                     "vacancytype" : "Technician",
                     "en_US" : "Technician",
-                    "tr_TR" : "Technician"
+                    "tr_TR" : "Uzman"
                 },
                 {
                     "localized" : true,
                     "vacancytype" : "Faculty",
                     "en_US" : "Faculty",
-                    "tr_TR" : "Faculty"
+                    "tr_TR" : "Öğretim Elemanı"
                 }
             ]
         },
@@ -302,19 +302,19 @@
                     "localized" : true,
                     "studentstatus" : "ongoing",
                     "en_US" : "ongoing",
-                    "tr_TR" : "ongoing"
+                    "tr_TR" : "sürüyor"
                 },
                 {
                     "localized" : true,
                     "studentstatus" : "graduate",
                     "en_US" : "graduate",
-                    "tr_TR" : "graduate"
+                    "tr_TR" : "mezun"
                 },
                 {
                     "localized" : true,
                     "studentstatus" : "dropout",
                     "en_US" : "dropout",
-                    "tr_TR" : "dropout"
+                    "tr_TR" : "terk"
                 }
             ]
         },
@@ -354,13 +354,13 @@
                     "localized" : true,
                     "studentlevel" : "Masters",
                     "en_US" : "Masters",
-                    "tr_TR" : "Yuksek lisans"
+                    "tr_TR" : "Yüksek lisans"
                 },
                 {
                     "localized" : true,
                     "studentlevel" : "Doctorate",
                     "en_US" : "Doctorate",
-                    "tr_TR" : "Doctora"
+                    "tr_TR" : "Doktora"
                 }
             ]
         },
@@ -400,19 +400,19 @@
                     "localized" : true,
                     "title" : "Professor",
                     "en_US" : "Professor",
-                    "tr_TR" : "Professor"
+                    "tr_TR" : "Profesör"
                 },
                 {
                     "localized" : true,
                     "title" : "Associate Professor",
                     "en_US" : "Associate Professor",
-                    "tr_TR" : "Docent"
+                    "tr_TR" : "Doç. Dr."
                 },
                 {
                     "localized" : true,
                     "title" : "Assistant Professor",
                     "en_US" : "Assistant Professor",
-                    "tr_TR" : "Yard Doc"
+                    "tr_TR" : "Yard. Doç. Dr."
                 },
                 {
                     "localized" : true,
@@ -452,7 +452,7 @@
                     "localized" : true,
                     "agency" : "TUBITAK",
                     "en_US" : "TUBITAK",
-                    "tr_TR" : "TUBITAK"
+                    "tr_TR" : "TÜBITAK"
                 },
                 {
                     "localized" : true,
@@ -492,19 +492,19 @@
                     "localized" : true,
                     "role" : "admin",
                     "en_US" : "admin",
-                    "tr_TR" : "admin"
+                    "tr_TR" : "yönetici"
                 },
                 {
                     "localized" : true,
                     "role" : "manager",
                     "en_US" : "manager",
-                    "tr_TR" : "manager"
+                    "tr_TR" : "idareci"
                 },
                 {
                     "localized" : true,
                     "role" : "user",
                     "en_US" : "user",
-                    "tr_TR" : "user"
+                    "tr_TR" : "kullanıcı"
                 }
             ]
         },
@@ -538,37 +538,37 @@
                     "localized" : true,
                     "status" : "ongoing",
                     "en_US" : "ongoing",
-                    "tr_TR" : "ongoing"
+                    "tr_TR" : "sürüyor"
                 },
                 {
                     "localized" : true,
                     "status" : "submitted",
                     "en_US" : "submitted",
-                    "tr_TR" : "submitted"
+                    "tr_TR" : "gönderildi"
                 },
                 {
                     "localized" : true,
                     "status" : "concluded",
                     "en_US" : "concluded",
-                    "tr_TR" : "concluded"
+                    "tr_TR" : "sonuçlandı"
                 },
                 {
                     "localized" : true,
                     "status" : "accepted",
                     "en_US" : "accepted",
-                    "tr_TR" : "accepted"
+                    "tr_TR" : "kabul edildi"
                 },
                 {
                     "localized" : true,
                     "status" : "published",
                     "en_US" : "published",
-                    "tr_TR" : "published"
+                    "tr_TR" : "yayımlandı"
                 },
                 {
                     "localized" : true,
                     "status" : "expired",
                     "en_US" : "expired",
-                    "tr_TR" : "expired"
+                    "tr_TR" : "süresi doldu"
                 }
             ]
         },
@@ -662,25 +662,25 @@
                     "localized" : true,
                     "requirement" : "Computer Science degree",
                     "en_US" : "Computer Science degree",
-                    "tr_TR" : "Computer Science degree"
+                    "tr_TR" : "Bilgisayar Bilimleri diploması"
                 },
                 {
                     "localized" : true,
                     "requirement" : "Mathematics degree",
                     "en_US" : "Mathematics degree",
-                    "tr_TR" : "Mathematics degree"
+                    "tr_TR" : "Mathematik diploması"
                 },
                 {
                     "localized" : true,
                     "requirement" : "Computer Engineering degree",
                     "en_US" : "Computer Engineering degree",
-                    "tr_TR" : "Computer Engineering degree"
+                    "tr_TR" : "Bilgisayar Mühendisliği Dİploması"
                 },
                 {
                     "localized" : true,
                     "requirement" : "Electrical Engineering degree",
                     "en_US" : "Electrical Engineering degree",
-                    "tr_TR" : "Electrical Engineering degree"
+                    "tr_TR" : "Elektronik Mühendisliği diploması"
                 },
                 {
                     "localized" : true,
@@ -726,25 +726,25 @@
                     "localized" : true,
                     "projectrole" : "Principal Investigator",
                     "en_US" : "Principal Investigator",
-                    "tr_TR" : "Yurutuncu"
+                    "tr_TR" : "Yürütücü"
                 },
                 {
                     "localized" : true,
                     "projectrole" : "Researcher",
                     "en_US" : "Researcher",
-                    "tr_TR" : "Researcher"
+                    "tr_TR" : "Araştırmacı"
                 },
                 {
                     "localized" : true,
                     "projectrole" : "Research Assistant",
                     "en_US" : "Research Assistant",
-                    "tr_TR" : "Research Assistant"
+                    "tr_TR" : "Araştırma Görevlisi"
                 } ,
                 {
                     "localized" : true,
                     "projectrole" : "Advisor",
                     "en_US" : "Advisor",
-                    "tr_TR" : "Advisor"
+                    "tr_TR" : "Danışman"
                 }
             ]
         },
@@ -837,7 +837,7 @@
                             "type": "tinytext",
                             "name" : "semester",
                             "caption" : "Semester" ,
-                            "value": "Summer 2018",
+                            "value": "Yaz 2018",
                             "cols" : "25",
                             "rows": "1",
                             "all_locales" : true
@@ -848,63 +848,63 @@
             "default_values" : [
                 {
                     "localized" : true,
-                    "semester" : "Summer 2016",
-                    "en_US" : "Summer 2016",
-                    "tr_TR" : "Summer 2016"
+                    "semester" : "Yaz 2016",
+                    "en_US" : "Yaz 2016",
+                    "tr_TR" : "Yaz 2016"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Winter 2016",
-                    "en_US" : "Winter 2016",
-                    "tr_TR" : "Winter 2016"
+                    "semester" : "Kış 2016",
+                    "en_US" : "Kış 2016",
+                    "tr_TR" : "Kış 2016"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Summer 2017",
-                    "en_US" : "Summer 2017",
-                    "tr_TR" : "Summer 2017"
+                    "semester" : "Yaz 2017",
+                    "en_US" : "Yaz 2017",
+                    "tr_TR" : "Yaz 2017"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Winter 2017",
-                    "en_US" : "Winter 2017",
-                    "tr_TR" : "Winter 2017"
+                    "semester" : "Kış 2017",
+                    "en_US" : "Kış 2017",
+                    "tr_TR" : "Kış 2017"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Summer 2018",
-                    "en_US" : "Summer 2018",
-                    "tr_TR" : "Summer 2018"
+                    "semester" : "Yaz 2018",
+                    "en_US" : "Yaz 2018",
+                    "tr_TR" : "Yaz 2018"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Winter 2019",
-                    "en_US" : "Winter 2019",
-                    "tr_TR" : "Winter 2019"
+                    "semester" : "Kış 2019",
+                    "en_US" : "Kış 2019",
+                    "tr_TR" : "Kış 2019"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Summer 2019",
-                    "en_US" : "Summer 2019",
-                    "tr_TR" : "Summer 2019"
+                    "semester" : "Yaz 2019",
+                    "en_US" : "Yaz 2019",
+                    "tr_TR" : "Yaz 2019"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Winter 2020",
-                    "en_US" : "Winter 2020",
-                    "tr_TR" : "Winter 2020"
+                    "semester" : "Kış 2020",
+                    "en_US" : "Kış 2020",
+                    "tr_TR" : "Kış 2020"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Summer 2021",
-                    "en_US" : "Summer 2021",
-                    "tr_TR" : "Summer 2021"
+                    "semester" : "Yaz 2021",
+                    "en_US" : "Yaz 2021",
+                    "tr_TR" : "Yaz 2021"
                 },
                 {
                     "localized" : true,
-                    "semester" : "Winter 2021",
-                    "en_US" : "Winter 2021",
-                    "tr_TR" : "Winter 2021"
+                    "semester" : "Kış 2021",
+                    "en_US" : "Kış 2021",
+                    "tr_TR" : "Kış 2021"
                 }
             ]
         },
