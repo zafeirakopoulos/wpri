@@ -75,7 +75,7 @@ class WPRI_Public {
 		 */
 
 		 wp_register_style('jquery-ui', 'http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css' );
- 	     wp_enqueue_style( 'jquery-ui' );
+ 	    	 wp_enqueue_style( 'jquery-ui' );
 		 wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
 		 wp_enqueue_style( 'wpri', plugin_dir_url( __FILE__ ) . 'css/wpri-public.css' );
 
@@ -106,16 +106,10 @@ class WPRI_Public {
 		 wp_register_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array( 'jquery' ));
 		 wp_enqueue_script( 'bootstrap_js' );
 
- 	 	wp_register_script( 'sortable_js', 'http://cdn.jsdelivr.net/npm/sortablejs@1.6.1/Sortable.min.js');
-		wp_enqueue_script( 'sortable_js' );
+ 	 	 wp_register_script( 'sortable_js', 'http://cdn.jsdelivr.net/npm/sortablejs@1.6.1/Sortable.min.js');
+		 wp_enqueue_script( 'sortable_js' );
 
 		wp_enqueue_script( 'jquery');
-
-		// wp_localize_script( $this->plugin_name, 'wpri_ajax', array(
-		// 	'ajaxurl' => admin_url( 'admin-ajax.php' ) ,
-		// 	'session_url' => site_url()."/session"
-		// 	)
-		// );
 
 		wp_register_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/wpri-public.js', array( 'jquery' ));
 		wp_enqueue_script($this->plugin_name);
@@ -177,7 +171,7 @@ class WPRI_Public {
 		if(!session_id()) {
 	    	session_start();
 		}
-	error_log(WPRI_Database::get_locale($_SESSION['locale']));
+ 
 	   return WPRI_Database::get_locale($_SESSION['locale']);
 	}
 	/**
