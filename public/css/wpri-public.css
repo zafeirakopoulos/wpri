@@ -1,0 +1,313 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+ :root {
+     /* fonts */
+     --site-title-font-size : 30px;
+     --small-font-size : 10px;
+     --medium-font-size : 13px;
+     --normal-font-size : 14px;
+     --large-font-size : 16px;
+     --title-font-size : 19px;
+     --super-title-font-size : 21px;
+
+     --menu-font-size : 20px;
+
+
+     --font-family: "Palatino", Helvetica, Arial, sans-serif;
+     --main-color : #D98310;
+     --main-focus-color : orange;
+     --alt-color : #494E6B;
+
+
+     /* background */
+     --main-background-color : #0B3C5D;
+     --alt-background-color : #D5D5D5;
+     /*--alt-background-color : #88BBD6;*/
+     /*--alt-background-color : #0375B4;*/
+
+
+      }
+
+
+
+      html, body
+      {
+          background-color: var(--alt-background-color);
+      }
+
+  /****************************
+  ********** Sidebar **********
+  *****************************/
+
+  @media only screen and (min-width: 1024px) {
+    /* define mobile specific styles come here */
+    .wpri-sidebar-frame {
+      position:fixed;
+      width :22%;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0px;
+    }
+    /*.masthead {
+        position: fixed;
+        top: 0px;
+    }*/
+  }
+
+
+.news-list {
+  margin-top: 0;
+  font-family: var(--font-family);
+  font-weight: normal;
+  color: var(--main-color);
+}
+
+
+  /****************************
+  ********** Header  **********
+  *****************************/
+
+h1.site-title{
+    font-size: var(--site-title-font-size,30px);
+    font-family: var(--font-family);
+    color: var(--main-color);
+    margin-top: 35px;
+    margin-bottom: 2px;
+}
+
+.masthead {
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+    text-align: center;
+    width: 100%;
+    border : 0px;
+    font-size: var(--menu-font-size);
+}
+
+.locale-picker {
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+    font-size: var(--medium-font-size);
+}
+.locale-picker:hover {
+    background-color: var(--main-background-color);
+    color: var(--main-focus-color);
+    font-size: var(--medium-font-size);
+}
+/* navbar */
+.navbar-default {
+    background-color: var(--main-background-color);
+    border-color: var(--main-background-color);
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: var(--main-color);
+    font-size: var(--menu-font-size);
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: var(--main-focus-color);
+    font-size: var(--menu-font-size);
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: var(--main-color);
+    font-size: var(--menu-font-size);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: var(--main-focus-color);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: var(--main-color);
+    background-color: var(--main-background-color);;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: var(--main-background-color);;
+    font-size: var(--menu-font-size);
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+
+
+  /****************************
+  ********** Footer  **********
+  *****************************/
+
+.footer {
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+    text-align: center;
+    width: 100%;
+    border : 0px;
+    font-size: var(--large-font-size);
+}
+
+/****************************
+********** Body  **********
+*****************************/
+
+.main-background-container{
+    width: 100%;
+    background-color: var(--alt-background-color);
+}
+.main-content-container{
+    width: 80%;
+    margin-top: 0;
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--alt-color);
+    font-size: var(--normal-font-size);
+    background-color: var(--alt-background-color);
+
+}
+
+
+  body {
+      font-family: var(--font-family);
+      color: var(--alt-color);
+      background-color: var(--alt-background-color);
+  }
+
+
+
+
+  /****************************
+  ********** Single  **********
+  *****************************/
+
+
+  .list-group-item {
+    margin-top: 0;
+    border-top: : none;
+    border-left: : none;
+    border-right: : none;
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--alt-color);
+    /*font-size: var(--normal-font-size);*/
+    background-color: var(--alt-background-color);
+
+  }
+  .list-group-item-alt{
+    margin-top: 0 ;
+    border-top: : none;
+    border-left: : none;
+    border-right: : none;
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--alt-color);
+    /*font-size: var(--normal-font-size);*/
+    /*background-color: var(--main-background-color);*/
+
+  }
+
+  a.list-group-item {
+    margin-top: 0;
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--alt-color);
+    font-size: var(--normal-font-size);
+  }
+  a.list-group-item:hover {
+    background-color: var(--main-color);
+    color: var(--main-background-color);
+  }
+
+    a.list-group-item:hover h1.list-item{
+        background-color: var(--main-color);
+        color: var(--main-background-color);
+    }
+    a.list-group-item:hover h2.list-item{
+        background-color: var(--main-color);
+        color: var(--main-background-color);
+    }
+    a.list-group-item:hover h3.list-item{
+        background-color: var(--main-color);
+        color: var(--main-background-color);
+    }
+    a.list-group-item:hover h4.list-item{
+        background-color: var(--main-color);
+        color: var(--main-background-color);
+    }
+
+    a.list-group-item h1.list-item{
+        color: var(--alt-color);
+        background-color: var(--alt-background-color);
+    }
+    a.list-group-item h2.list-item{
+        color: var(--alt-color);
+        background-color: var(--alt-background-color);
+    }
+    a.list-group-item h3.list-item{
+        color: var(--alt-color);
+        background-color: var(--alt-background-color);
+    }
+    a.list-group-item h4.list-item{
+        color: var(--alt-color);
+        background-color: var(--alt-background-color);
+    }
+
+    h1.list-item{
+        color: var(--alt-color);
+        background-color: var(--alt-background-color);
+    }
+    h2.list-item{
+        color: var(--alt-color);
+        background-color: var(--alt-background-color);
+    }
+    h3.list-item{
+        color: var(--alt-color);
+        background-color: var(--alt-background-color);
+    }
+    h4.list-item{
+        color: var(--alt-color);
+        background-color: var(--alt-background-color);
+    }
+
+ .list-item-alt{
+         color: var(--alt-background-color);
+ }
+
+  .outfont  {
+    color: var(--main-background-color);
+  }
+
+ /*.single h1, .single h2, .single h3, .single h4, .single p {
+    margin-top: 0;
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--main-color);
+  }*/
+
+  .single  h1{
+    font-size: var(--title-font-size);
+    font-weight: bold;
+  }
+  .single h2 {
+    font-size: var(--large-font-size);
+  }
+  .single h3 {
+    font-size: var(--normal-font-size);
+  }
+  .single h4 {
+    font-size: var(--small-font-size);
+  }
+
+  .single p {
+    font-size: var(--normal-font-size);
+  }

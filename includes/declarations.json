@@ -1,0 +1,1766 @@
+{
+    "entities":
+    {
+        "locale": {
+            "title" : "Locales",
+            "table_name" : "locale",
+            "name" :"locale",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "tinytext",
+                            "name" : "locale",
+                            "caption" : "Locale" ,
+                            "value": "en_US",
+                            "cols" : "5",
+                            "rows": "1"
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "locale" : "en_US"
+                },
+                {
+                    "locale" : "tr_TR"
+                }
+            ]
+        },
+        "keyword": {
+            "title" : "Keyword",
+            "table_name" : "keyword",
+            "name" :"keyword",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "keyword",
+                            "caption" : "Keyword" ,
+                            "value": "",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "keyword" : "symbolic computation",
+                    "en_US" : "symbolic computation",
+                    "tr_TR" : "sembolik hesaplama"
+                },
+                {
+                    "localized" : true,
+                    "keyword" : "vision",
+                    "en_US" : "vision",
+                    "tr_TR" : "vision"
+                }
+            ]
+        },
+        "position": {
+            "title" : "Positions",
+            "table_name" : "position",
+            "name" :"position",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "position",
+                            "caption" : "Position" ,
+                            "value": "researcher",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "position" : "Director",
+                    "en_US" : "Director",
+                    "tr_TR" : "Mudur"
+                },
+                {
+                    "localized" : true,
+                    "position" : "Vice Director",
+                    "en_US" : "Vice Director",
+                    "tr_TR" : "Yard Mudur"
+                },
+                {
+                    "localized" : true,
+                    "position" : "Faculty",
+                    "en_US" : "Faculty",
+                    "tr_TR" : "Faculty"
+                },
+                {
+                    "localized" : true,
+                    "position" : "Research Assistant",
+                    "en_US" : "Research Assistant",
+                    "tr_TR" : "Ar Gor"
+                },
+                {
+                    "localized" : true,
+                    "position" : "Technician",
+                    "en_US" : "Technician",
+                    "tr_TR" : "Technician"
+                },
+                {
+                    "localized" : true,
+                    "position" : "Secretary",
+                    "en_US" : "Secretary",
+                    "tr_TR" : "Secretary"
+                }
+            ]
+        },
+        "pubtype": {
+            "title" : "Publication type",
+            "table_name" : "pubtype",
+            "name" :"pubtype",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "pubtype",
+                            "caption" : "Publication type" ,
+                            "value": "",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "pubtype" : "SCI indexed International Journal",
+                    "en_US" : "SCI indexed International Journal",
+                    "tr_TR" : "SCI indexed International Journal"
+                },
+                {
+                    "localized" : true,
+                    "pubtype" : "SCI-E indexed International Journal",
+                    "en_US" : "SCI-E indexed International Journal",
+                    "tr_TR" : "SCI-E indexed International Journal"
+                },
+                {
+                    "localized" : true,
+                    "pubtype" : "International Journal",
+                    "en_US" : "International Journal",
+                    "tr_TR" : "International Journal"
+                },
+                {
+                    "localized" : true,
+                    "pubtype" : "SCI indexed National Journal",
+                    "en_US" : "SCI indexed National Journal",
+                    "tr_TR" : "SCI indexed National Journal"
+                },
+                {
+                    "localized" : true,
+                    "pubtype" : "National Journal",
+                    "en_US" : "National Journal",
+                    "tr_TR" : "National Journal"
+                },
+                {
+                    "localized" : true,
+                    "pubtype" : "SCI indexed International Conference Proceedings",
+                    "en_US" : "SCI indexed International Conference Proceedings",
+                    "tr_TR" : "SCI indexed International Conference Proceedings"
+                },
+                {
+                    "localized" : true,
+                    "pubtype" : "SCI indexed National Conference Proceedings",
+                    "en_US" : "SCI indexed National Conference Proceedings",
+                    "tr_TR" : "SCI indexed National Conference Proceedings"
+                },
+                {
+                    "localized" : true,
+                    "pubtype" : "International Conference Proceedings",
+                    "en_US" : "International Conference Proceedings",
+                    "tr_TR" : "International Conference Proceedings"
+                },
+                {
+                    "localized" : true,
+                    "pubtype" : "National Conference Proceedings",
+                    "en_US" : "National Conference Proceedings",
+                    "tr_TR" : "National Conference Proceedings"
+                }
+            ]
+        },
+        "vacancytype": {
+            "title" : "Vacancy type",
+            "table_name" : "vacancytype",
+            "name" :"vacancytype",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "vacancytype",
+                            "caption" : "Vacancy type" ,
+                            "value": "",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "vacancytype" : "Research Assistant",
+                    "en_US" : "Research Assistant",
+                    "tr_TR" : "Research Assistant"
+                },
+                {
+                    "localized" : true,
+                    "vacancytype" : "Project Assistant",
+                    "en_US" : "Project Assistant",
+                    "tr_TR" : "Project Assistant"
+                },
+                {
+                    "localized" : true,
+                    "vacancytype" : "Technician",
+                    "en_US" : "Technician",
+                    "tr_TR" : "Technician"
+                },
+                {
+                    "localized" : true,
+                    "vacancytype" : "Faculty",
+                    "en_US" : "Faculty",
+                    "tr_TR" : "Faculty"
+                }
+            ]
+        },
+        "studentstatus": {
+            "title" : "Student status",
+            "table_name" : "studentstatus",
+            "name" :"studentstatus",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "studentstatus",
+                            "caption" : "Student status" ,
+                            "value": "",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "studentstatus" : "ongoing",
+                    "en_US" : "ongoing",
+                    "tr_TR" : "ongoing"
+                },
+                {
+                    "localized" : true,
+                    "studentstatus" : "graduate",
+                    "en_US" : "graduate",
+                    "tr_TR" : "graduate"
+                },
+                {
+                    "localized" : true,
+                    "studentstatus" : "dropout",
+                    "en_US" : "dropout",
+                    "tr_TR" : "dropout"
+                }
+            ]
+        },
+        "studentlevel": {
+            "title" : "Student level",
+            "table_name" : "studentlevel",
+            "name" :"studentlevel",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "studentlevel",
+                            "caption" : "Student level" ,
+                            "value": "",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "studentlevel" : "Undergrad",
+                    "en_US" : "Undergrad",
+                    "tr_TR" : "Lisans"
+                },
+                {
+                    "localized" : true,
+                    "studentlevel" : "Masters",
+                    "en_US" : "Masters",
+                    "tr_TR" : "Yuksek lisans"
+                },
+                {
+                    "localized" : true,
+                    "studentlevel" : "Doctorate",
+                    "en_US" : "Doctorate",
+                    "tr_TR" : "Doctora"
+                }
+            ]
+        },
+        "title": {
+            "title" : "Titles",
+            "table_name" : "title",
+            "name" :"title",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "tinytext",
+                            "name" : "title",
+                            "caption" : "Title" ,
+                            "value": "Dr.",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "title" : " ",
+                    "en_US" : " ",
+                    "tr_TR" : " "
+                },
+                {
+                    "localized" : true,
+                    "title" : "Professor",
+                    "en_US" : "Professor",
+                    "tr_TR" : "Professor"
+                },
+                {
+                    "localized" : true,
+                    "title" : "Associate Professor",
+                    "en_US" : "Associate Professor",
+                    "tr_TR" : "Docent"
+                },
+                {
+                    "localized" : true,
+                    "title" : "Assistant Professor",
+                    "en_US" : "Assistant Professor",
+                    "tr_TR" : "Yard Doc"
+                },
+                {
+                    "localized" : true,
+                    "title" : "Dr.",
+                    "en_US" : "Dr.",
+                    "tr_TR" : "Dr."
+                }
+            ]
+        },
+        "agency": {
+            "title" : "Funding Agencies",
+            "table_name" : "agency",
+            "name" :"agency",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "tinytext",
+                            "name" : "agency",
+                            "caption" : "Agency" ,
+                            "value": "EU H2020",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "agency" : "TUBITAK",
+                    "en_US" : "TUBITAK",
+                    "tr_TR" : "TUBITAK"
+                },
+                {
+                    "localized" : true,
+                    "agency" : "H2020",
+                    "en_US" : "H2020",
+                    "tr_TR" : "H2020"
+                }
+            ]
+        },
+        "role": {
+            "title" : "Role",
+            "table_name" : "role",
+            "name" :"role",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "tinytext",
+                            "name" : "role",
+                            "caption" : "Role" ,
+                            "value": "Admin",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "role" : "admin",
+                    "en_US" : "admin",
+                    "tr_TR" : "admin"
+                },
+                {
+                    "localized" : true,
+                    "role" : "manager",
+                    "en_US" : "manager",
+                    "tr_TR" : "manager"
+                },
+                {
+                    "localized" : true,
+                    "role" : "user",
+                    "en_US" : "user",
+                    "tr_TR" : "user"
+                }
+            ]
+        },
+        "status": {
+            "title" : "Status",
+            "table_name" : "status",
+            "name" :"status",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "tinytext",
+                            "name" : "status",
+                            "caption" : "Status" ,
+                            "value": "ongoing",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "status" : "ongoing",
+                    "en_US" : "ongoing",
+                    "tr_TR" : "ongoing"
+                },
+                {
+                    "localized" : true,
+                    "status" : "submitted",
+                    "en_US" : "submitted",
+                    "tr_TR" : "submitted"
+                },
+                {
+                    "localized" : true,
+                    "status" : "concluded",
+                    "en_US" : "concluded",
+                    "tr_TR" : "concluded"
+                },
+                {
+                    "localized" : true,
+                    "status" : "accepted",
+                    "en_US" : "accepted",
+                    "tr_TR" : "accepted"
+                },
+                {
+                    "localized" : true,
+                    "status" : "published",
+                    "en_US" : "published",
+                    "tr_TR" : "published"
+                },
+                {
+                    "localized" : true,
+                    "status" : "expired",
+                    "en_US" : "expired",
+                    "tr_TR" : "expired"
+                }
+            ]
+        },
+        "authornumber": {
+            "title" : "Author number",
+            "table_name" : "authornumber",
+            "name" :"authornumber",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "INT",
+                            "name" : "authornumber",
+                            "caption" : "Author Number" ,
+                            "value": "1",
+                            "cols" : "2",
+                            "rows": "1"
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "authornumber" : 0
+                },
+                {
+                    "authornumber" : 1
+                },
+                {
+                    "authornumber" : 2
+                },
+                {
+                    "authornumber" : 3
+                },
+                {
+                    "authornumber" : 4
+                },
+                {
+                    "authornumber" : 5
+                },
+                {
+                    "authornumber" : 6
+                },
+                {
+                    "authornumber" : 7
+                },
+                {
+                    "authornumber" : 8
+                },
+                {
+                    "authornumber" : 9
+                },
+                {
+                    "authornumber" : 10
+                }
+            ]
+        },
+        "requirement": {
+            "title" : "Requirement",
+            "table_name" : "requirement",
+            "name" :"requirement",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "requirement",
+                            "caption" : "Requirement" ,
+                            "value": "Computer Engineering degree",
+                            "cols" : "100",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "requirement" : "Computer Science degree",
+                    "en_US" : "Computer Science degree",
+                    "tr_TR" : "Computer Science degree"
+                },
+                {
+                    "localized" : true,
+                    "requirement" : "Mathematics degree",
+                    "en_US" : "Mathematics degree",
+                    "tr_TR" : "Mathematics degree"
+                },
+                {
+                    "localized" : true,
+                    "requirement" : "Computer Engineering degree",
+                    "en_US" : "Computer Engineering degree",
+                    "tr_TR" : "Computer Engineering degree"
+                },
+                {
+                    "localized" : true,
+                    "requirement" : "Electrical Engineering degree",
+                    "en_US" : "Electrical Engineering degree",
+                    "tr_TR" : "Electrical Engineering degree"
+                },
+                {
+                    "localized" : true,
+                    "requirement" : "ALES > 75",
+                    "en_US" : "ALES > 75",
+                    "tr_TR" : "ALES > 75"
+                },
+                {
+                    "localized" : true,
+                    "requirement" : "YDS > 75",
+                    "en_US" : "YDS > 75",
+                    "tr_TR" : "YDS > 75"
+                }
+            ]
+        },
+        "projectrole": {
+            "title" : "Project role",
+            "table_name" : "projectrole",
+            "name" :"projectrole",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "tinytext",
+                            "name" : "projectrole",
+                            "caption" : "Project role" ,
+                            "value": "researcher",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "projectrole" : "Principal Investigator",
+                    "en_US" : "Principal Investigator",
+                    "tr_TR" : "Yurutuncu"
+                },
+                {
+                    "localized" : true,
+                    "projectrole" : "Researcher",
+                    "en_US" : "Researcher",
+                    "tr_TR" : "Researcher"
+                },
+                {
+                    "localized" : true,
+                    "projectrole" : "Research Assistant",
+                    "en_US" : "Research Assistant",
+                    "tr_TR" : "Research Assistant"
+                } ,
+                {
+                    "localized" : true,
+                    "projectrole" : "Advisor",
+                    "en_US" : "Advisor",
+                    "tr_TR" : "Advisor"
+                }
+            ]
+        },
+        "journal": {
+            "title" : "Journal",
+            "table_name" : "journal",
+            "name" :"journal",
+            "has_menu": true,
+            "display_element":"journal",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "journal",
+                            "caption" : "Journal" ,
+                            "value": " ",
+                            "cols" : "125",
+                            "rows": "1"
+                        },
+                        {
+                            "type": "select",
+                            "name" : "pubtype",
+                            "caption" : "Publication type" ,
+                            "table" : "pubtype",
+                            "column" : "id",
+                            "display_column" : "pubtype"
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "journal" : "Journal of Symbolic Computation",
+                    "pubtype": "1"
+                }
+            ]
+        },
+        "conference": {
+            "title" : "Conference",
+            "table_name" : "conference",
+            "name" :"conference",
+            "has_menu": true,
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "conference",
+                            "caption" : "Conference/Workshop name" ,
+                            "value": " ",
+                            "cols" : "200",
+                            "rows": "1"
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "conference" : "International Symbosium on Symbolic and Algebraic Computation"
+                }
+            ]
+        },
+        "semester": {
+            "title" : "Semester",
+            "table_name" : "semester",
+            "name" :"semester",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "type": "tinytext",
+                            "name" : "semester",
+                            "caption" : "Semester" ,
+                            "value": "Summer 2018",
+                            "cols" : "25",
+                            "rows": "1",
+                            "all_locales" : true
+                        }
+                    ]
+                }
+            ],
+            "default_values" : [
+                {
+                    "localized" : true,
+                    "semester" : "Summer 2016",
+                    "en_US" : "Summer 2016",
+                    "tr_TR" : "Summer 2016"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Winter 2016",
+                    "en_US" : "Winter 2016",
+                    "tr_TR" : "Winter 2016"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Summer 2017",
+                    "en_US" : "Summer 2017",
+                    "tr_TR" : "Summer 2017"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Winter 2017",
+                    "en_US" : "Winter 2017",
+                    "tr_TR" : "Winter 2017"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Summer 2018",
+                    "en_US" : "Summer 2018",
+                    "tr_TR" : "Summer 2018"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Winter 2019",
+                    "en_US" : "Winter 2019",
+                    "tr_TR" : "Winter 2019"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Summer 2019",
+                    "en_US" : "Summer 2019",
+                    "tr_TR" : "Summer 2019"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Winter 2020",
+                    "en_US" : "Winter 2020",
+                    "tr_TR" : "Winter 2020"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Summer 2021",
+                    "en_US" : "Summer 2021",
+                    "tr_TR" : "Summer 2021"
+                },
+                {
+                    "localized" : true,
+                    "semester" : "Winter 2021",
+                    "en_US" : "Winter 2021",
+                    "tr_TR" : "Winter 2021"
+                }
+            ]
+        },
+        "member": {
+            "title" : "Members",
+            "table_name" : "member",
+            "name" :"member",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "User",
+                    "elements" : [
+                        {
+                            "caption" : "User" ,
+                            "name": "user",
+                            "value": "",
+                            "type": "select",
+                            "table" : "user",
+                            "column" : "ID",
+                            "display_column" : "name"
+                        },
+                        {
+                            "caption" : "Name" ,
+                            "name": "name",
+                            "value": "",
+                            "type": "text"
+                        },
+                        {
+                            "caption" : "Role" ,
+                            "name": "role",
+                            "value": "",
+                            "type": "select",
+                            "table" : "role",
+                            "column" : "id",
+                            "display_column" : "localized"
+                        }
+                    ]
+                }
+            ],
+            "related":[
+                "publication",
+                ["project","projectrole"],
+                "vacancy"
+            ]
+        },
+        "collaborator": {
+            "title" : "Collaborators",
+            "table_name" : "collaborator",
+            "has_menu" : true,
+            "name" :"collaborator",
+            "display_element": "name",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "Information",
+                    "elements" : [
+                        {
+                            "caption" : "Name" ,
+                            "name": "name",
+                            "value": "",
+                            "type": "text"
+                        },
+                        {
+                            "caption" : "Affiliation" ,
+                            "name": "affiliation",
+                            "value": "",
+                            "type": "text"
+                        },
+                        {
+                            "caption" : "Title" ,
+                            "name": "title",
+                            "type": "select",
+                            "table" : "title",
+                            "column" : "id",
+                            "display_column" : "title"
+                        }
+                    ]
+                }
+            ]
+        },
+        "project": {
+            "title" : "Projects",
+            "table_name" : "project",
+            "has_menu": true,
+            "has_page": true,
+            "name" :"project",
+            "display_element": "official_title",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "Project title",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "official_title",
+                            "caption" : "Official title" ,
+                            "value": "as appearing in the funding agency",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "type": "text",
+                            "localized":true,
+                            "name": "title",
+                            "caption" : "Title in different locales" ,
+                            "value": "Title in different locales",
+                            "cols" : "50",
+                            "rows": "2"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Project members",
+                    "elements" : [
+                        {
+                            "caption" : "Members of the institute participating in the project" ,
+                            "form_name": "members[]",
+                            "name": "members",
+                            "value": "",
+                            "type": "multiple-select",
+                            "relation" : {
+                                "foreach" : {
+                                    "table" : "member",
+                                    "column" : "id",
+                                    "display_column" : "name"
+                                },
+                                "select":{
+                                    "table" : "projectrole",
+                                    "column" : "id",
+                                    "display_column" : "projectrole"
+                                }
+                            }
+                        },
+                        {
+                            "caption" : "Collaborators participating in the project" ,
+                            "name": "collaborators",
+                            "value": "",
+                            "type": "multiple-select",
+                            "relation" : {
+                                "foreach" : {
+                                    "table" : "collaborator",
+                                    "column" : "id",
+                                    "display_column" : "name"
+                                },
+                                "select":{
+                                    "table" : "projectrole",
+                                    "column" : "id",
+                                    "display_column" : "projectrole"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title" : "Funding",
+                    "elements" : [
+                        {
+                            "caption" : "Choose funding agency" ,
+                            "name": "agency",
+                            "value": "",
+                            "type": "multiple-select",
+                            "relation" : {
+                                "foreach" : {
+                                    "table" : "agency",
+                                    "column" : "id",
+                                    "display_column" : "agency"
+                                }
+                            }
+                        },
+                        {
+                            "caption" : "Budget" ,
+                            "name": "budget",
+                            "value": "",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Info",
+                    "elements" : [
+                        {
+                            "caption" : "Website" ,
+                            "name": "website",
+                            "value": "",
+                            "type": "text"
+                        },
+                        {
+                            "caption" : "Status" ,
+                            "name": "status",
+                            "value": "",
+                            "type": "select",
+                            "table" : "status",
+                            "column" : "id",
+                            "display_column" : "status"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Dates",
+                    "elements" : [
+                        {
+                            "caption" : "Start date" ,
+                            "name": "startdate",
+                            "value": "",
+                            "type": "datetime"
+                        },
+                        {
+                            "caption" : "End date" ,
+                            "name": "enddate",
+                            "value": "",
+                            "type": "datetime"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Picture",
+                    "elements" : [
+                        {
+                            "caption" : "Project picture" ,
+                            "name": "picture",
+                            "value": "",
+                            "type": "picture"
+                        }
+                    ]
+                }
+            ],
+            "related" : [
+                "publication",
+                "vacancy"
+            ]
+        },
+        "publication": {
+            "title" : "Publications",
+            "table_name" : "publication",
+            "has_menu": true,
+            "name" :"publication",
+            "display_element": "title",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "Publication title",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "title",
+                            "caption" : "Title" ,
+                            "value": "as appeared",
+                            "cols" : "50",
+                            "rows": "2"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Information",
+                    "elements" : [
+                        {
+                            "caption" : "Publication type" ,
+                            "name": "pubtype",
+                            "value": "",
+                            "type": "select",
+                            "table" : "pubtype",
+                            "column" : "id",
+                            "display_column" : "pubtype"
+                        },
+                        {
+                            "caption" : "Publication DOI",
+                            "name": "doi",
+                            "value": "",
+                            "type": "tinytext",
+                            "cols" : "30",
+                            "rows": "1"
+                        },
+                        {
+                            "caption" : "Journal" ,
+                            "name": "journal",
+                            "value": "",
+                            "type": "select",
+                            "table" : "journal",
+                            "column" : "id",
+                            "display_column" : "journal"
+                        },
+                        {
+                            "caption" : "Conference" ,
+                            "name": "conference",
+                            "value": "",
+                            "type": "select",
+                            "table" : "conference",
+                            "column" : "id",
+                            "display_column" : "conference"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Bibliographic information",
+                    "elements" : [
+                        {
+                            "caption" : "Bibtex" ,
+                            "name": "bibtex",
+                            "value": "",
+                            "type": "text",
+                            "cols" : "100",
+                            "rows": "10"
+                        },
+                        {
+                            "caption" : "Publication date" ,
+                            "name": "pubdate",
+                            "value": "",
+                            "type": "datetime"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Project information",
+                    "elements" : [
+                        {
+                            "caption" : "Publication is acknowledging funding from" ,
+                            "name": "project",
+                            "value": "",
+                            "type": "multiple-select",
+                            "relation" : {
+                                "foreach" : {
+                                    "table" : "project",
+                                    "column" : "id",
+                                    "display_column" : "official_title"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title" : "Author information",
+                    "elements" : [
+                        {
+                            "caption" : "Authors that are members of the institute" ,
+                            "name": "member_authors",
+                            "value": "",
+                            "type": "multiple-select",
+                            "relation" : {
+                                "foreach" : {
+                                    "table" : "member",
+                                    "column" : "id",
+                                    "display_column" : "name"
+                                }
+                            }
+                        },
+                        {
+                            "caption" : "All authors (as appearing in the paper)" ,
+                            "name": "authors",
+                            "value": "",
+                            "type": "text",
+                            "cols" : "100",
+                            "rows": "2"
+                        }
+                    ]
+                }
+
+            ]
+        },
+        "vacancy": {
+            "title" : "Vacancies",
+            "table_name" : "vacancy",
+            "has_menu": true,
+            "name" :"vacancy",
+            "display_element": "official_title",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "Position information",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "official_title",
+                            "caption" : "Official title" ,
+                            "value": "",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "type": "text",
+                            "localized":true,
+                            "name": "title",
+                            "caption" : "Title in different locales" ,
+                            "value": "Title in different locales",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "type": "text",
+                            "localized":true,
+                            "name": "description",
+                            "caption" : "Job description" ,
+                            "value": "Job description",
+                            "cols" : "100",
+                            "rows": "5"
+                        },
+                        {
+                            "caption" : "Contact persons" ,
+                            "name": "members",
+                            "value": "",
+                            "type": "multiple-select",
+                            "relation" : {
+                                "foreach" : {
+                                    "table" : "member",
+                                    "column" : "id",
+                                    "display_column" : "name"
+                                }
+                            }
+                        },
+                        {
+                            "caption" : "Related projects" ,
+                            "name": "project",
+                            "value": "",
+                            "type": "multiple-select",
+                            "relation" : {
+                                "foreach" : {
+                                    "table" : "project",
+                                    "column" : "id",
+                                    "display_column" : "official_title"
+                                }
+                            }
+                        },
+                        {
+                            "caption" : "Vacancy type" ,
+                            "name": "vacancytype",
+                            "value": "",
+                            "type": "select",
+                            "table" : "vacancytype",
+                            "column" : "id",
+                            "display_column" : "vacancytype"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Requirements",
+                    "elements" : [
+                        {
+                            "caption" : "Choose requirements" ,
+                            "name": "requirements",
+                            "value": "",
+                            "type": "multiple-select",
+                            "relation" : {
+                                "foreach" : {
+                                    "table" : "requirement",
+                                    "column" : "id",
+                                    "display_column" : "requirement"
+                                }
+                            }
+                        },
+                        {
+                            "caption" : "ALES" ,
+                            "name": "ales",
+                            "value": "60",
+                            "type": "text"
+                        },
+                        {
+                            "caption" : "YDS" ,
+                            "name": "yds",
+                            "value": "60",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Dates",
+                    "elements" : [
+                        {
+                            "caption" : "Application deadline" ,
+                            "name": "deadline",
+                            "value": "",
+                            "type": "datetime"
+                        },
+                        {
+                            "caption" : "Starting date" ,
+                            "name": "startingdate",
+                            "value": "",
+                            "type": "datetime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "student": {
+            "title" : "Student",
+            "table_name" : "student",
+            "has_menu": true,
+            "name" :"student",
+            "display_element": "name",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "caption" : "Name" ,
+                            "type": "text",
+                            "name" : "name",
+                            "value": "",
+                            "cols" : "50",
+                            "rows": "1"
+                        },
+                        {
+                            "caption" : "Level" ,
+                            "name": "studentlevel",
+                            "value": "",
+                            "type": "select",
+                            "table" : "studentlevel",
+                            "column" : "id",
+                            "display_column" : "studentlevel"
+                        },
+                        {
+                            "caption" : "Status" ,
+                            "name": "studentstatus",
+                            "value": "",
+                            "type": "select",
+                            "table" : "studentstatus",
+                            "column" : "id",
+                            "display_column" : "studentstatus"
+                        },
+                        {
+                            "caption" : "Advisor" ,
+                            "name": "advisor",
+                            "value": "",
+                            "type": "select",
+                            "table" : "member",
+                            "column" : "id",
+                            "display_column" : "name"
+                        },
+                        {
+                            "caption" : "Graduation date" ,
+                            "type": "datetime",
+                            "name" : "graduationdate",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "course": {
+            "title" : "Courses",
+            "table_name" : "course",
+            "has_menu": true,
+            "name" :"course",
+            "display_element": "code",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "Course title",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "code",
+                            "caption" : "Course code" ,
+                            "value": "as appearing in the curriculum",
+                            "cols" : "10",
+                            "rows": "1"
+                        },
+                        {
+                            "type": "text",
+                            "name" : "official_title",
+                            "caption" : "Official title" ,
+                            "value": "as appearing in the curriculum",
+                            "cols" : "100",
+                            "rows": "1"
+                        },
+                        {
+                            "type": "text",
+                            "localized":true,
+                            "name": "title",
+                            "caption" : "Title in different locales" ,
+                            "value": "Title in different locales",
+                            "cols" : "100",
+                            "rows": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "courseoffering": {
+            "title" : "Course Offering",
+            "table_name" : "courseoffering",
+            "has_menu": true,
+            "name" :"courseoffering",
+            "display_element": "course",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "",
+                    "elements" : [
+                        {
+                            "caption" : "Course" ,
+                            "name": "course",
+                            "value": "",
+                            "type": "select",
+                            "table" : "course",
+                            "column" : "id",
+                            "display_column" : "code"
+                        },
+                        {
+                            "caption" : "Semester" ,
+                            "name": "semester",
+                            "value": "",
+                            "type": "select",
+                            "table" : "semester",
+                            "column" : "id",
+                            "display_column" : "semester"
+                        },
+                        {
+                            "caption" : "Instructor" ,
+                            "name": "member",
+                            "value": "",
+                            "type": "select",
+                            "table" : "member",
+                            "column" : "id",
+                            "display_column" : "name"
+                        }
+                    ]
+                }
+            ]
+        },
+        "award": {
+            "title" : "Awards",
+            "table_name" : "award",
+            "has_menu": true,
+            "name" :"award",
+            "display_element": "name",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "Award name",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "official_name",
+                            "caption" : "Official award name" ,
+                            "value": " ",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "type": "text",
+                            "localized":true,
+                            "name": "name",
+                            "caption" : "Award name in different locales" ,
+                            "value": "Award in different locales",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "caption" : "Member awarded" ,
+                            "name": "member",
+                            "value": "",
+                            "type": "select",
+                            "table" : "member",
+                            "column" : "id",
+                            "display_column" : "name"
+                        },
+                        {
+                            "type": "text",
+                            "name" : "institution",
+                            "caption" : "Institution awarding the award" ,
+                            "value": " ",
+                            "cols" : "100",
+                            "rows": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "patent": {
+            "title" : "Patents",
+            "table_name" : "patent",
+            "has_menu": true,
+            "name" :"patent",
+            "display_element": "name",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "Patent name",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "official_name",
+                            "caption" : "Official patent name" ,
+                            "value": " ",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "type": "text",
+                            "localized":true,
+                            "name": "name",
+                            "caption" : "Patent name in different locales" ,
+                            "value": "Award in different locales",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "caption" : "Member awarded the patent" ,
+                            "name": "member",
+                            "value": "",
+                            "type": "select",
+                            "table" : "member",
+                            "column" : "id",
+                            "display_column" : "name"
+                        },
+                        {
+                            "type": "text",
+                            "name" : "institution",
+                            "caption" : "Institution awarding the patent" ,
+                            "value": " ",
+                            "cols" : "100",
+                            "rows": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "scholarship": {
+            "title" : "Scholarships",
+            "table_name" : "scholarship",
+            "has_menu": true,
+            "name" :"patent",
+            "display_element": "name",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            },
+            "groups" :[
+                {
+                    "title" : "Scholarship name",
+                    "elements" : [
+                        {
+                            "type": "text",
+                            "name" : "official_name",
+                            "caption" : "Official scholarship name" ,
+                            "value": " ",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "type": "text",
+                            "localized":true,
+                            "name": "name",
+                            "caption" : "Scholarship name in different locales" ,
+                            "value": "",
+                            "cols" : "50",
+                            "rows": "2"
+                        },
+                        {
+                            "caption" : "Member awarded the scholarship" ,
+                            "name": "member",
+                            "value": "",
+                            "type": "select",
+                            "table" : "member",
+                            "column" : "id",
+                            "display_column" : "name"
+                        },
+                        {
+                            "type": "text",
+                            "name" : "institution",
+                            "caption" : "Institution awarding the scholarship" ,
+                            "value": " ",
+                            "cols" : "100",
+                            "rows": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "post_types":
+    {
+        "wpri_news": {
+            "labels": {
+                  "name" : "News",
+                  "singular_name": "News"
+            },
+            "public" : true,
+            "has_archive" : true,
+            "rewrite" : {"slug" : "news"}
+        },
+        "wpri_highlights": {
+            "labels": {
+                  "name" : "Highlights",
+                  "singular_name": "Highlight"
+            },
+            "public" : true,
+            "has_archive" : true,
+            "rewrite" : {"slug" : "highlights"}
+        },
+        "wpri_blog": {
+            "labels": {
+                  "name" : "Blog",
+                  "singular_name": "Blog"
+            },
+            "public" : true,
+            "has_archive" : true,
+            "rewrite" : {"slug" : "blog"}
+        }
+    },
+    "reports":
+    {
+        "projects": {
+            "title" : "Projects",
+            "has_menu": true,
+            "name" :"project",
+            "actions": {
+                "add" : "manage_options",
+                "remove" : ["admin"],
+                "update" : ["all"]
+            }
+        }
+    },
+    "pages": [
+        "Faculty","Research","Projects","Publications","Contact","Positions",
+		"member","project","publication","position","session"
+    ]
+}
