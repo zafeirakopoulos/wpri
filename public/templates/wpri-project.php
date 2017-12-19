@@ -11,7 +11,7 @@
                 echo "<div class='col-xs-12'><h3 class='list-item'>".__("Budget","wpri").": ".$project['budget']."</h3> </div>";
     			echo "<div class='col-xs-12'><h3 class='list-item'>".__("Status","wpri").": ".$project['status']."</h3> </div>";
     			if (isset($project['website']) AND $project['website']!=""){
-    				echo "<div class='col-xs-12 single'><h3 class='list-item'><a href='".$project['website']."'>".$project['website']."</h3></div>";
+    				echo "<div class='col-xs-12 single'><h3 class='list-item'><a href='".$project['website']."'>".$project['website']."</a></h3></div>";
     			}
 
     			echo "<div class='col-xs-12 single'><h3 class='list-item'> ".__("Activity Period","wpri").": ".
