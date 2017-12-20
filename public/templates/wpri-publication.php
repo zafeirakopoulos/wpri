@@ -5,7 +5,7 @@
 		$publication = WPRI_Database::get_entity("publication",$publication_id);
 
 		echo "<h2 class='col-xs-12 list-item'>".$publication['title']."</h2><br>";
-		echo "<div class='col-xs-2'>". "publication picture ."</div>";
+		echo "<div class='col-xs-2'>". "publication picture" ."</div>";
 		echo "<div class='col-xs-10  row  list-item'>";
 			echo "<div class='col-xs-12'><h3 class='list-item'>".__("Authors","wpri")" :".$publication['authors']."</h3> </div>";
 
