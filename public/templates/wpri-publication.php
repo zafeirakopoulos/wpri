@@ -7,7 +7,7 @@
 		echo "<h2 class='col-xs-12 list-item'>".$publication['title']."</h2><br>";
 		echo "<div class='col-xs-2'>". "publication picture" ."</div>";
 		echo "<div class='col-xs-10  row  list-item'>";
-			echo "<div class='col-xs-12'><h3 class='list-item'>".__("Authors","wpri")" :".$publication['authors']."</h3> </div>";
+			echo "<div class='col-xs-12'><h3 class='list-item'>".__("Authors","wpri")." :".$publication['authors']."</h3> </div>";
 
 			echo "<div class='col-xs-12'><h3 class='list-item'> ".__("DOI number","wpri").": ".$publication['doi']."</h3> </div>";
 			echo "<div class='col-xs-12'><h3 class='list-item'> ".__("Publication type","wpri").": ". $publication["pubtype"]."</h3> </div>";
@@ -15,7 +15,7 @@
 
 		echo "</div>";
 		?>
- 
+
 	<h2 class="outfont"><?php _e("Authors","wpri") ?></h2>
     <ul class="list-group">
 	<?php
