@@ -1014,8 +1014,8 @@
                             "name" : "official_title",
                             "caption" : "Official title" ,
                             "value": "as appearing in the funding agency",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "type": "text",
@@ -1023,8 +1023,8 @@
                             "name": "title",
                             "caption" : "Title in different locales" ,
                             "value": "Title in different locales",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         }
                     ]
                 },
@@ -1168,8 +1168,8 @@
                             "name" : "title",
                             "caption" : "Title" ,
                             "value": "as appeared",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         }
                     ]
                 },
@@ -1272,7 +1272,7 @@
                             "value": "",
                             "type": "text",
                             "cols" : "100",
-                            "rows": "2"
+                            "rows": "1"
                         }
                     ]
                 }
@@ -1299,8 +1299,8 @@
                             "name" : "official_title",
                             "caption" : "Official title" ,
                             "value": "",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "type": "text",
@@ -1308,8 +1308,8 @@
                             "name": "title",
                             "caption" : "Title in different locales" ,
                             "value": "Title in different locales",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "type": "text",
@@ -1576,8 +1576,8 @@
                             "name" : "official_name",
                             "caption" : "Official award name" ,
                             "value": " ",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "type": "text",
@@ -1585,8 +1585,8 @@
                             "name": "name",
                             "caption" : "Award name in different locales" ,
                             "value": "Award in different locales",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "caption" : "Member awarded" ,
@@ -1629,8 +1629,8 @@
                             "name" : "official_name",
                             "caption" : "Official patent name" ,
                             "value": " ",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "type": "text",
@@ -1638,8 +1638,8 @@
                             "name": "name",
                             "caption" : "Patent name in different locales" ,
                             "value": "Award in different locales",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "caption" : "Member awarded the patent" ,
@@ -1682,8 +1682,8 @@
                             "name" : "official_name",
                             "caption" : "Official scholarship name" ,
                             "value": " ",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "type": "text",
@@ -1691,8 +1691,8 @@
                             "name": "name",
                             "caption" : "Scholarship name in different locales" ,
                             "value": "",
-                            "cols" : "50",
-                            "rows": "2"
+                            "cols" : "100",
+                            "rows": "1"
                         },
                         {
                             "caption" : "Member awarded the scholarship" ,
