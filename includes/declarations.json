@@ -794,6 +794,7 @@
             "table_name" : "conference",
             "name" :"conference",
             "has_menu": true,
+	    "display_column" : "conference", 
             "actions": {
                 "add" : "edit_posts",
                 "remove" : ["admin"],
