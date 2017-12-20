@@ -583,19 +583,19 @@ public static function update_form($id, $entity, $form) {
 	}
 
 
-	public static function get_records($table, $where) {
-		$values = array();
-		$wherearray = array();
-		foreach ($where as $key => $value) {
-			# gettype
-			array_push($wherearray," ".$key."= %d ");
-			array_push($values,$value);
-		}
-		$query = "SELECT * FROM " . self::table_name($table). " WHERE ". join(" AND ", $wherearray);
-		$results=  $GLOBALS['wpdb']->get_results($GLOBALS['wpdb']->prepare($query, $values),"ARRAY_A");
-		return $results[0];
-		// TODO is [0] correct????
-	}
+	// public static function get_records($table, $where) {
+	// 	$values = array();
+	// 	$wherearray = array();
+	// 	foreach ($where as $key => $value) {
+	// 		# gettype
+	// 		array_push($wherearray," ".$key."= %d ");
+	// 		array_push($values,$value);
+	// 	}
+	// 	$query = "SELECT * FROM " . self::table_name($table). " WHERE ". join(" AND ", $wherearray);
+	// 	$results=  $GLOBALS['wpdb']->get_results($GLOBALS['wpdb']->prepare($query, $values),"ARRAY_A");
+	// 	return $results[0];
+	// 	// TODO is [0] correct????
+	// }
 
 
 	public static function get_localized($entity,$id) {
@@ -903,7 +903,7 @@ public static function update_form($id, $entity, $form) {
 	 	 		 	}
 	 	 		 }
 
-    
+
 	 	 	 	return $entity;
 	 	 	 }
 
@@ -943,7 +943,7 @@ public static function update_form($id, $entity, $form) {
 				   $results[$member["id"]] = WPRI_Database::get_member_full_precomputed_entity($member["id"],$local,$relations ,$multiplerelations, $select);
 		 		}
 
- 
+
 				return $results;
 			 }
 
@@ -987,7 +987,7 @@ public static function update_form($id, $entity, $form) {
  		 		   foreach (  $relations  as $name ) {
  		 			   $tmp=array();
  		 			   if (isset($declarations[$name]["groups"][0]["elements"][0]["all_locales"])){
- 
+
  		 				   foreach (WPRI_Database::get_relation("member",$name,$id,"") as $row) {
  		 					   $tmp[] = WPRI_Database::get_localized($name,$row[$name]) ;
  		 				   }
@@ -1001,7 +1001,7 @@ public static function update_form($id, $entity, $form) {
 
  		 		   foreach (  $select  as $selection ) {
  		 			   if (isset($declarations[$selection]["groups"][0]["elements"][0]["all_locales"])){
- 
+
  		 				   $result[$selection]=  WPRI_Database::get_localized($selection,$result[$selection]) ;
  		 			   }
  		 		   }
@@ -1072,7 +1072,7 @@ public static function update_form($id, $entity, $form) {
 				   $result["office"]= get_user_meta($result["user"],"office",true);
 				   $result["phone"]= get_user_meta($result["user"],"phone",true);
 
- 
+
 	 				return $result;
 	 			 }
 
@@ -1090,7 +1090,7 @@ public static function update_form($id, $entity, $form) {
 		 		   foreach (  $relations  as $name ) {
 		 			   $tmp=array();
 		 			   if (isset($declarations[$name]["groups"][0]["elements"][0]["all_locales"])){
- 
+
 		 				   foreach (WPRI_Database::get_relation("member",$name,$id,"") as $row) {
 		 					   $tmp[] = WPRI_Database::get_localized($name,$row[$name]) ;
 		 				   }
@@ -1104,7 +1104,7 @@ public static function update_form($id, $entity, $form) {
 
 		 		   foreach (  $select  as $selection ) {
 		 			   if (isset($declarations[$selection]["groups"][0]["elements"][0]["all_locales"])){
- 
+
 		 				   $result[$selection]=  WPRI_Database::get_localized($selection,$result[$selection]) ;
 		 			   }
 		 		   }
@@ -1119,7 +1119,7 @@ public static function update_form($id, $entity, $form) {
 		 			   foreach ( $entity["related"] as $related ) {
 		 				   $tmp=array();
 		 				   if (isset($declarations[$related]["groups"][0]["elements"][0]["all_locales"])){
- 
+
 		 					   foreach (WPRI_Database::get_relation($related,"member","",$id) as $row) {
 		 						   $tmp[] = WPRI_Database::get_localized($related,$row[$related]) ;
 		 					   }
@@ -1135,7 +1135,7 @@ public static function update_form($id, $entity, $form) {
 				   $result["position"]= WPRI_Database::get_localized("position",get_user_meta($result["user"],"position",true));
 				   $result["name"]= get_user_meta($result["user"],"first_name",true)." ".get_user_meta($result["user"],"last_name",true);
 
- 
+
 	 				return $result;
 	 			 }
 
@@ -1149,7 +1149,7 @@ public static function update_form($id, $entity, $form) {
 			 foreach ($GLOBALS['wpdb']->get_results("SELECT id FROM " . self::table_name($entity). "WHERE ".$where,"ARRAY_A") as $key => $value) {
 			 	$ids[] = $value["id"];
 			 }
- 
+
 			 return $ids;
 		 }
 
