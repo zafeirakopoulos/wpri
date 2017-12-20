@@ -3,17 +3,19 @@
  		<?php
 		$publication_id=$_GET['id'];
 		$publication = WPRI_Database::get_entity("publication",$publication_id);
+
+		echo "<h2 class='col-xs-12 list-item'>".$publication['title']."</h2><br>";
+		echo "<div class='col-xs-2'>". "publication picture ."</div>";
+		echo "<div class='col-xs-10  row  list-item'>";
+			echo "<div class='col-xs-12'><h3 class='list-item'>".__("Authors","wpri")" :".$publication['authors']."</h3> </div>";
+
+			echo "<div class='col-xs-12'><h3 class='list-item'> ".__("DOI number","wpri").": ".$publication['doi']."</h3> </div>";
+			echo "<div class='col-xs-12'><h3 class='list-item'> ".__("Publication type","wpri").": ". $publication["pubtype"]."</h3> </div>";
+			echo "<div class='col-xs-12'><h3 class='list-item'> Bibtex: ". $publication['bibtex']."</h3> </div>";
+
+		echo "</div>";
 		?>
-    <ul class="list-group">
-        <div class=' col-xs-8 list-group-item'>
-    		<div class='col-sm-12 col-md-12 col-lg-12'><h1 class="list-item"> <?php echo $publication['title'];?></h1> </div>
-    		<div class='col-sm-3 col-md-3 col-lg-3 '> <?php echo "publication picture"?> </div>
-    		<div class='col-sm-12 '><h3 class="list-item"> <?php echo $publication['authors'];?> </h3></div>
-    		<div class='col-sm-3 col-md-3 col-lg-4 '><h3 class="list-item"><?php _e("DOI number","wpri") ?><br> <?php echo $publication['doi'];?>  </h3></div>
-    		<div class='col-sm-3 col-md-3 col-lg-5 '><h3 class=" list-item"><?php _e("Publication type","wpri") ?><br> <?php echo $publication["pubtype"];?> </h3> </div>
-    		<div class='col-sm-12 col-md-12 col-lg-12 wordwrap '><h3 class=" list-item"> <?php echo $publication['bibtex'];?>  </h3></div>
-        </div>
-    </ul>
+ 
 	<h2 class="outfont"><?php _e("Authors","wpri") ?></h2>
     <ul class="list-group">
 	<?php
