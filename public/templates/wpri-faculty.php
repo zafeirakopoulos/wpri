@@ -17,7 +17,6 @@
             $faculty[] = $member["id"];
         }
         if (in_array(get_user_meta($member["user"],"position",true),array(4,5))){
-            echo $member["id"];
             $assistants[] = $member["id"];
         }
         if (in_array(get_user_meta($member["user"],"position",true),array(6))){
