@@ -29,7 +29,8 @@
 			<ul class="list-group">
 			<?php
 				foreach ($project["members"] as $member_row) {
-					$member = WPRI_Database::get_record("member",$member_row["member"]) ;
+					// $member = WPRI_Database::get_record("member",$member_row["member"]) ;
+          $member = WPRI_Database::get_member_full($member_row["member"]) ;
 					echo "<a class='list-group-item' href='".site_url()."/member?id=".$member["id"]."'>";
  					echo $member["name"]. " (".WPRI_Database::get_localized("projectrole", $member_row["projectrole"]).")";
  					echo "</a>";
